@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.titleContainerItem {
+  flex: 1;
+}
+
+.backButton {
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.moveTileContainer {
+  position: relative;
+}
+
+.moveTile {
+  background-color: #ae8acf;
+}
+
+.tileImage {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.arrowUp {
+  transform: rotate(180deg);
+}
+
+.arrowLeft {
+  transform: rotate(90deg);
+}
+
+.arrowRight {
+  transform: rotate(270deg);
+}

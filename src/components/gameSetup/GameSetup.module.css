@@ -1,0 +1,32 @@
+.mainContainer {
+  display: flex;
+  flex-flow: column;
+  height: calc(100% - 125px);
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  gap: 16px;
+}
+
+.rowOption {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.playButton {
+  border: 1px solid #b3b3b3;
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.playButton:hover {
+  border: 2px solid #2684ff;
+  margin: -1px;
+}

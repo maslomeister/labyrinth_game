@@ -1,0 +1,31 @@
+.fieldTileContainer {
+  position: relative;
+}
+
+.fieldTile {
+  aspect-ratio: 1;
+  background-color: #ae8acf;
+  border-radius: 5px;
+  box-shadow: 0px 5px 2px;
+}
+
+.tileImage {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.tileSuccess {
+  background-color: #a5fc73;
+}
+
+.tileFail {
+  background-color: #fc7373;
+}
