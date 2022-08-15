@@ -1,9 +1,12 @@
 import React, { useMemo } from "react";
 import { m } from "framer-motion";
 
-import styles from "./MoveTile.module.css";
+import arrowIcon from "../../assets/images/down_arrow.png";
 import { useAppSelector } from "../../services/hooks";
 import { gameSpeedValue } from "../../utils/gameHelpers";
+
+import styles from "./MoveTile.module.css";
+
 type Props = {
   direction: string;
   index: number;
@@ -39,7 +42,7 @@ export function MoveTile({ index, direction }: Props) {
           default: { duration: 0.25 },
         }}
         className={styles.tileImage}
-        src="/assets/images/down_arrow.png"
+        src={arrowIcon}
         alt="arrow"
       />
     </div>

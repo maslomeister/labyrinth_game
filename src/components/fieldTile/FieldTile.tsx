@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { m, AnimatePresence } from "framer-motion";
 
+import startIcon from "../../assets/images/start.png";
 import { ImageOnTile } from "../imageOnTile/ImageOnTile";
 import { useAppSelector } from "../../services/hooks";
 
@@ -80,7 +81,7 @@ export function FieldTile({ field, onClick }: Props) {
           exit={{ opacity: 0 }}
           transition={{ delay: 0.3, default: { duration: 1 } }}
           className={styles.tileImage}
-          src="/assets/images/start.png"
+          src={startIcon}
           alt="start"
           key="start"
         />

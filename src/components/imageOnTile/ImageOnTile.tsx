@@ -1,6 +1,8 @@
 import React from "react";
 import { m } from "framer-motion";
 
+import finishIcon from "../../assets/images/finish.png";
+import failIcon from "../../assets/images/man_fail.png";
 import styles from "./ImageOnTile.module.css";
 
 type Props = {
@@ -18,7 +20,7 @@ export function ImageOnTile({ guess }: Props) {
           exit={{ opacity: 0 }}
           key="finish"
           className={styles.tileImage}
-          src="/assets/images/finish.png"
+          src={finishIcon}
           alt="finish"
         />
       );
@@ -30,7 +32,7 @@ export function ImageOnTile({ guess }: Props) {
           exit={{ opacity: 0 }}
           key="finish"
           className={styles.tileImage}
-          src="/assets/images/finish.png"
+          src={finishIcon}
           alt="finish"
         />
       );
@@ -42,8 +44,8 @@ export function ImageOnTile({ guess }: Props) {
           exit={{ opacity: 0 }}
           key="guessPos"
           className={styles.tileImage}
-          src="/assets/images/man_fail.png"
-          alt="man fail"
+          src={failIcon}
+          alt="fail"
         />
       );
     default:
