@@ -1,3 +1,5 @@
+### [View website](https://maslomeister.github.io/labyrinth_game/)
+
 ## Preview
 
 https://user-images.githubusercontent.com/64310545/179536212-b629de1b-ff05-409a-9401-61fe1d7f7045.mp4
