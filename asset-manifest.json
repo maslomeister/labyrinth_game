@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/labyrinth_game/static/css/main.0bbc0318.css",
-    "main.js": "/labyrinth_game/static/js/main.d486d8e8.js",
-    "static/js/787.195af958.chunk.js": "/labyrinth_game/static/js/787.195af958.chunk.js",
-    "index.html": "/labyrinth_game/index.html",
-    "main.0bbc0318.css.map": "/labyrinth_game/static/css/main.0bbc0318.css.map",
-    "main.d486d8e8.js.map": "/labyrinth_game/static/js/main.d486d8e8.js.map",
-    "787.195af958.chunk.js.map": "/labyrinth_game/static/js/787.195af958.chunk.js.map"
+    "main.css": "./static/css/main.0bbc0318.css",
+    "main.js": "./static/js/main.342f92b5.js",
+    "static/js/787.195af958.chunk.js": "./static/js/787.195af958.chunk.js",
+    "static/media/start.png": "./static/media/start.35a80dae4f5cfc6bb1d0.png",
+    "static/media/man_fail.png": "./static/media/man_fail.789e6293da2a0625a299.png",
+    "index.html": "./index.html",
+    "main.0bbc0318.css.map": "./static/css/main.0bbc0318.css.map",
+    "main.342f92b5.js.map": "./static/js/main.342f92b5.js.map",
+    "787.195af958.chunk.js.map": "./static/js/787.195af958.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0bbc0318.css",
-    "static/js/main.d486d8e8.js"
+    "static/js/main.342f92b5.js"
   ]
 }
